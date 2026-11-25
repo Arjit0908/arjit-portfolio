@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arjit Singh - Java Backend &amp; Technical Analyst</title>
+    <meta name="description" content="Portfolio of Arjit Singh, a Java-focused software professional with 3 years of experience in Spring Boot microservices, REST APIs, Kafka, Redis, SQL/NoSQL and LLM-assisted development.">
+    <meta name="theme-color" content="#0a0a0f">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Arjit Singh - Java Backend &amp; Technical Analyst">
+    <meta property="og:description" content="Java, Spring Boot microservices, integrations and data-processing workflows.">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Arjit Singh - Java Backend &amp; Technical Analyst">
+    <meta name="twitter:description" content="Java, Spring Boot microservices, integrations and data-processing workflows.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/hud.css">
+    <link rel="stylesheet" href="css/chat-hud.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body>
+    <div class="boot-screen" id="boot-screen" role="status" aria-live="polite">
+        <div class="boot-frame">
+            <p class="hud-kicker">ARJIT SINGH // PORTFOLIO SYSTEMS</p>
+            <p class="boot-title">Initializing portfolio...</p>
+            <div class="boot-progress" role="presentation"><span></span></div>
+            <button class="boot-skip" type="button" data-boot-skip>Skip intro</button>
+        </div>
+    </div>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header>
+        <div class="nav-container">
+            <a href="#home" class="logo">Arjit Singh</a>
+            <nav aria-label="Primary navigation">
+                <ul>
+                    <li><a class="nav-link" href="#home">Home</a></li>
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="#experience">Experience</a></li>
+                    <li><a class="nav-link" href="#projects">Work</a></li>
+                    <li><a class="nav-link" href="#skills">Skills</a></li>
+                    <li><a class="nav-link" href="#publications">Publications</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main id="main-content">
+    <section id="home" class="hero">
+        <canvas id="hero-background-canvas"></canvas>
+        <div class="hero-layout">
+        <div class="arc-reactor" aria-hidden="true">
+            <svg viewBox="0 0 320 320" role="presentation">
+                <circle class="reactor-shell" cx="160" cy="160" r="142"></circle>
+                <circle class="reactor-track" cx="160" cy="160" r="125"></circle>
+                <g class="reactor-spin">
+                    <circle class="reactor-ring" cx="160" cy="160" r="108"></circle>
+                    <path class="reactor-spoke" d="M160 35v28m0 194v28M35 160h28m194 0h28M71.6 71.6l19.8 19.8m137.2 137.2 19.8 19.8m0-176.8-19.8 19.8M91.4 228.6l-19.8 19.8"></path>
+                    <circle class="reactor-ring reactor-ring-inner" cx="160" cy="160" r="77"></circle>
+                </g>
+                <g class="reactor-counter-spin">
+                    <circle class="reactor-segments" cx="160" cy="160" r="58"></circle>
+                    <path class="reactor-ticks" d="M160 80v12m0 136v12M80 160h12m136 0h12m-184.6-56.6 8.5 8.5m96.2 96.2 8.5 8.5m0-113.2-8.5 8.5m-96.2 96.2-8.5 8.5"></path>
+                </g>
+                <circle class="reactor-core-glow" cx="160" cy="160" r="37"></circle>
+                <circle class="reactor-core" cx="160" cy="160" r="24"></circle>
+                <circle class="reactor-core-point" cx="160" cy="160" r="8"></circle>
+            </svg>
+            <span class="reactor-label">CORE // ONLINE</span>
+        </div>
+        <div class="hero-content">
+            <h1>
+                <span class="animate-word highlight">Hi,</span>
+                <span class="animate-word highlight">I'm</span>
+                <span class="animate-word highlight">Arjit</span>
+                <span class="animate-word highlight">Singh</span>
+            </h1>
+            <h2><span id="role-typing" class="typed-role" aria-live="polite">Java &amp; Spring Boot</span></h2>
+            <div class="hero-links">
+                <a href="#projects" class="btn">View Work</a>
+                <a href="Arjit-Singh-Resume.pdf" download class="btn btn-outline">Download Resume</a>
+            </div>
+            <div class="hero-tools">
+                <button class="suit-toggle" type="button" data-suit-toggle aria-pressed="false" aria-label="Switch to Stealth suit theme">
+                    <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                    <span data-suit-label>MARK III MODE</span>
+                </button>
+            </div>
+            <div class="hero-stats" role="list" aria-label="Quick facts">
+                <div class="stat" role="listitem">
+                    <div class="stat-value" data-target="3">0</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat" role="listitem">
+                    <div class="stat-value" data-target="4">0</div>
+                    <div class="stat-label">Key Workstreams</div>
+                </div>
+                <div class="stat" role="listitem">
+                    <div class="stat-value" data-target="20" data-suffix="+">0</div>
+                    <div class="stat-label">Tools &amp; Skills</div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 id="about-heading" class="section-heading"><span>About Me</span></h2>
+
+            <div class="about-grid" role="region" aria-labelledby="about-heading">
+                <div class="about-img" aria-hidden="false">
+                    <img src="images/profile-placeholder.svg" alt="Portrait placeholder for Arjit Singh" loading="lazy">
+                </div>
+
+                <div class="about-text">
+                    <div class="about-intro-card">
+                        <p>Hi, I'm <strong class="name-highlight">Arjit Singh</strong>.</p>
+
+                        <p>I'm a Java-focused software professional who builds and supports reliable backend services, integrations and data-processing workflows in insurance technology.</p>
+
+                        <div class="about-highlights" aria-label="Professional focus areas">
+                            <span class="highlight-pill">Java &amp; Spring Boot</span>
+                            <span class="highlight-pill">Kafka &amp; Redis</span>
+                            <span class="highlight-pill">SQL &amp; MongoDB</span>
+                            <span class="highlight-pill">LLM-Assisted Workflow</span>
+                        </div>
+
+                        <p>With <strong>3 years of experience</strong> building Spring Boot services, REST APIs and integrations, I am hands-on with Kafka, Redis, SQL/NoSQL databases and production troubleshooting. I use LLM-powered tools and structured prompting for coding, debugging, documentation and rapid prototyping.</p>
+
+                        <p class="about-cta">Let's build dependable systems that ship.</p>
+                    </div>
+
+                    <div class="education-cards" aria-label="Education and qualifications">
+                        <article class="edu-card" tabindex="0" aria-labelledby="btech-title">
+                            <div class="edu-icon" aria-hidden="true">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="edu-body">
+                                <h4 id="btech-title">B.Tech — Electronics, Telecommunication &amp; Computer Science</h4>
+                                <div class="edu-meta">
+                                    <span class="edu-university">Symbiosis Institute of Technology, Pune</span>
+                                    <span class="edu-duration">2019 — 2023 • Honors in Robotics &amp; Automation</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="about-actions">
+                        <div class="social-links" aria-hidden="false">
+                            <a href="https://www.linkedin.com/in/arjit-singh-8136761b5" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:arjit99999@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                            <a href="tel:+916260132672" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+    <h2><span>Work Experience</span></h2>
+    <p class="experience-intro">
+        <span class="experience-eyebrow">Career snapshot <span aria-hidden="true">//</span> 2023–Present</span>
+        <span>From insurance backend systems to AI-assisted solutioning, building dependable services and turning business needs into technical delivery.</span>
+    </p>
+    <div class="timeline container">
+        <article class="timeline-item">
+            <div class="timeline-header">
+                <div class="role-company">
+                    <span class="company-logo-frame company-logo-frame--light"><span class="company-logo company-logo--initials" aria-hidden="true">NX</span></span>
+                    <div class="role-text">
+                        <h3 class="role-title">Technical Analyst</h3>
+                        <span class="company-name">Nexusolve</span>
+                    </div>
+                </div>
+                <div class="timeline-meta">
+                    <span class="date">March 2026 — Present</span>
+                    <span class="download-placeholder" aria-hidden="true"></span>
+                </div>
+            </div>
+            <section class="experience-toolkit" aria-label="Tools and expertise used in this role">
+                <h4 class="impact-label">Core tools &amp; expertise</h4>
+                <ul class="experience-specialties">
+                    <li>Requirements Analysis</li>
+                    <li>Cursor</li>
+                    <li>Lovable</li>
+                    <li>AI-assisted Prototyping</li>
+                    <li>LLM-assisted Coding</li>
+                    <li>Prompt Engineering</li>
+                    <li>Stakeholder Coordination</li>
+                </ul>
+            </section>
+            <section class="contributions" aria-label="Contributions and outcomes">
+                <div class="contributions-heading"><h4 class="impact-label">Contributions &amp; outcomes</h4><span class="contributions-count">4 contributions</span></div>
+                <ol class="contribution-list">
+                    <li class="contribution-entry"><span class="contribution-index" aria-hidden="true">01</span><div><h5>Requirements to solution</h5><p>Worked with stakeholders to understand business workflows, clarify functional needs and constraints, and turn them into actionable technical requirements and solution approaches.</p></div></li>
+                    <li class="contribution-entry"><span class="contribution-index" aria-hidden="true">02</span><div><h5>AI-assisted prototyping</h5><p>Used Cursor and Lovable to build proofs-of-concept from workflow descriptions, iterating on prompts and outputs to shape UI flows, validate ideas and speed up stakeholder feedback.</p></div></li>
+                    <li class="contribution-entry"><span class="contribution-index" aria-hidden="true">03</span><div><h5>LLM-assisted workflow</h5><p>Used AI coding assistants for code exploration, implementation suggestions, debugging support and technical documentation, and reviewed, tested and adapted generated output before use.</p></div></li>
+                    <li class="contribution-entry"><span class="contribution-index" aria-hidden="true">04</span><div><h5>Delivery coordination</h5><p>Tracked dependencies, timelines and deliverables across engineering, product and customer-facing discussions, and identified adjacent workflow needs to support solution expansion.</p></div></li>
+                </ol>
+            </section>
+        </article>
+
+        <article class="timeline-item">
+            <div class="timeline-header">
+                <div class="role-company">
+                    <span class="company-logo-frame company-logo-frame--light"><span class="company-logo company-logo--initials" aria-hidden="true">SH</span></span>
+                    <div class="role-text">
+                        <h3 class="role-title">Assistant Manager</h3>
+                        <span class="company-name">Star Health and Allied Insurance Co. Ltd.</span>
+                    </div>
+                </div>
+                <div class="timeline-meta">
+                    <span class="date">September 2023 — February 2026 (2 years 6 months)</span>
+                    <span class="download-placeholder" aria-hidden="true"></span>
+                </div>
+            </div>
+            <section class="experience-toolkit" aria-label="Tools and expertise used in this role">
+                <h4 class="impact-label">Core tools &amp; expertise</h4>
+                <ul class="experience-specialties">
+                    <li>Java</li>
+                    <li>Spring Boot</li>
+                    <li>REST APIs</li>
+                    <li>Kafka</li>
+                    <li>Redis</li>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                    <li>SFTP</li>
+                    <li>UAT</li>
+                </ul>
+            </section>
+            <section class="contributions" aria-label="Contributions and outcomes">
+                <div class="contributions-heading"><h4 class="impact-label">Contributions &amp; outcomes</h4><span class="contributions-count">5 contributions</span></div>
+                <ol class="contribution-list">
+                    <li class="contribution-entry"><span class="contribution-index" aria-hidden="true">01</span><div><h5>Backend microservices &amp; document processing</h5><p>Worked on Spring Boot microservices for insurance proposal, policy and document-processing workflows using Java, REST APIs, MongoDB, MySQL, Kafka, Redis and SFTP-based integrations.</p></div></li>
+                    <li class="contribution-entry"><span class="contribution-index" aria-hidden="true">02</span><div><h5>Document data pipeline</h5><p>Found a manual document-upload bottleneck causing daily discrepancies; defined SLA targets, validation rules and fault-tolerance requirements, and ran UAT before rollout. Contributed to a 99.2% automated success rate and 80% less manual processing.</p></div></li>
+                    <li class="contribution-entry"><span class="contribution-index" aria-hidden="true">03</span><div><h5>Policy data validation</h5><p>Worked with underwriting and engineering to translate business rules into a structured validation engine, using MySQL/SQL to find anomalies and trends. Contributed to a 35% reduction in policy rejections.</p></div></li>
+                    <li class="contribution-entry"><span class="contribution-index" aria-hidden="true">04</span><div><h5>API orchestration &amp; integration</h5><p>Scoped an API orchestration layer for retail and group insurance flows, analysed transaction failures across data sources and supported fixes that improved integration efficiency by 60%+.</p></div></li>
+                    <li class="contribution-entry"><span class="contribution-index" aria-hidden="true">05</span><div><h5>Production reliability &amp; reporting</h5><p>Supported data transformation, validation, integration and UAT cycles, and built operational dashboards using SQL and MongoDB data, with Excel summaries for business stakeholders.</p></div></li>
+                </ol>
+            </section>
+        </article>
+
+    </div>
+</section>
+
+    <section id="projects" class="projects">
+        <h2><span>Featured Work</span></h2>
+        <div class="section-intro">
+            <p>Selected workstreams from my time at Star Health: backend services, data pipelines, validation and integrations.</p>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="images/work-backend.svg" alt="Spring Boot microservices" loading="lazy" decoding="async">
+                </div>
+                <div class="project-content">
+                    <h3>Backend Microservices &amp; Document Processing</h3>
+                    <div class="project-meta">
+                        <span class="project-tag">Java</span>
+                        <span class="project-tag">Spring Boot</span>
+                        <span class="project-tag">Kafka</span>
+                    </div>
+                    <ul class="project-details">
+                        <li>Worked on Spring Boot microservices for insurance proposal, policy and document-processing workflows.</li>
+                        <li>Used Java, REST APIs, MongoDB, MySQL, Kafka, Redis and SFTP-based integrations.</li>
+                        <li>Supported data transformation, validation, integration and UAT cycles, and built SQL/MongoDB dashboards with Excel summaries for business teams.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="images/work-pipeline.svg" alt="Document Data Pipeline result" loading="lazy" decoding="async">
+                </div>
+                <div class="project-content">
+                    <h3>Document Data Pipeline</h3>
+                    <div class="project-meta">
+                        <span class="project-tag">Automation</span>
+                        <span class="project-tag">UAT</span>
+                    </div>
+                    <ul class="project-details">
+                        <li>Identified a manual document-upload bottleneck that caused daily data discrepancies.</li>
+                        <li>Defined SLA targets, data-validation rules and fault-tolerance requirements, and ran UAT and validation cycles before rollout.</li>
+                        <li><strong>Results:</strong> contributed to a 99.2% automated success rate and an 80% reduction in manual processing.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="images/work-validation.svg" alt="Policy data validation result" loading="lazy" decoding="async">
+                </div>
+                <div class="project-content">
+                    <h3>Policy Data Validation</h3>
+                    <div class="project-meta">
+                        <span class="project-tag">SQL</span>
+                        <span class="project-tag">Validation</span>
+                    </div>
+                    <ul class="project-details">
+                        <li>Worked with underwriting and engineering teams to translate business rules into a structured validation engine.</li>
+                        <li>Used MySQL/SQL to identify data anomalies and flag trends.</li>
+                        <li><strong>Results:</strong> contributed to a 35% reduction in policy rejections.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="images/work-integration.svg" alt="API orchestration result" loading="lazy" decoding="async">
+                </div>
+                <div class="project-content">
+                    <h3>API Orchestration &amp; Integration</h3>
+                    <div class="project-meta">
+                        <span class="project-tag">APIs</span>
+                        <span class="project-tag">Integration</span>
+                    </div>
+                    <ul class="project-details">
+                        <li>Scoped an API orchestration layer for retail and group insurance flows.</li>
+                        <li>Analysed transaction failures across data sources and identified root causes.</li>
+                        <li><strong>Results:</strong> supported fixes that improved integration efficiency by 60%+.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2><span>Technical Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <div class="skill-category-heading">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>Programming &amp; Backend</h3>
+                </div>
+                <ul>
+                    <li>Java</li>
+                    <li>Spring Boot</li>
+                    <li>Microservices</li>
+                    <li>REST APIs</li>
+                    <li>Apache Kafka</li>
+                    <li>Redis</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <div class="skill-category-heading">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3>Databases &amp; Data</h3>
+                </div>
+                <ul>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                    <li>SQL</li>
+                    <li>Data Analysis</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <div class="skill-category-heading">
+                    <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Generative AI &amp; LLMs</h3>
+                </div>
+                <ul>
+                    <li>Prompt engineering &amp; iteration</li>
+                    <li>LLM-assisted coding/debugging</li>
+                    <li>Cursor</li>
+                    <li>Lovable</li>
+                    <li>Foundational: LLM APIs, Spring AI concepts, embeddings, vector databases, RAG, tool/function calling</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <div class="skill-category-heading">
+                    <div class="skill-icon"><i class="fas fa-screwdriver-wrench"></i></div>
+                    <h3>Tools &amp; Delivery</h3>
+                </div>
+                <ul>
+                    <li>Git</li>
+                    <li>Postman</li>
+                    <li>Linux</li>
+                    <li>Docker (basic)</li>
+                    <li>Grafana</li>
+                    <li>Excel</li>
+                    <li>UAT &amp; regression testing</li>
+                    <li>Agile/Scrum</li>
+                    <li>JIRA</li>
+                    <li>Requirement analysis</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="publications" class="publications">
+        <h2><span>Publications &amp; Patents</span></h2>
+        <div class="publications-container">
+            <div class="publication-card">
+                <div class="pub-left">
+                    <div class="publication-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="conference-badge">INCET 2023</div>
+                </div>
+                <div class="pub-right">
+                    <h3 class="pub-title">
+                        Oghma Nano Simulation of PM6:D18:L8-BO Organic Cell with other Lesser Efficient Solar Cells
+                    </h3>
+                    <p class="pub-authors"><strong>Conference:</strong> 4th International Conference for Emerging Technology (INCET) · <strong>Published:</strong> 10 July 2023</p>
+                    <p class="pub-abstract">
+                        Simulation study to improve PM6:D18:L8-BO organic solar cell efficiency, compared with D18:L8-BO, P3HT:PCBM and PM6:L8-BO cells.
+                    </p>
+                </div>
+            </div>
+
+            <div class="publication-card">
+                <div class="pub-left">
+                    <div class="publication-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <div class="conference-badge">Patent Application</div>
+                </div>
+                <div class="pub-right">
+                    <h3 class="pub-title">
+                        A Mobile Application Based Portable eSIM Integrated GPS Device for Tracking Things, called Quito Trackers
+                    </h3>
+                    <p class="pub-authors"><strong>Application No.:</strong> 202321019122 A · <strong>Published:</strong> 7 April 2023</p>
+                    <p class="pub-abstract">
+                        Compact eSIM + GPS tracker with a mobile app to locate belongings in real time.
+                    </p>
+                </div>
+            </div>
+
+            <div class="publication-card">
+                <div class="pub-left">
+                    <div class="publication-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <div class="conference-badge">Patent Application</div>
+                </div>
+                <div class="pub-right">
+                    <h3 class="pub-title">
+                        A Solution for Parking Spaces Using a Smart System called ORDO
+                    </h3>
+                    <p class="pub-authors"><strong>Application No.:</strong> 202321019125 A · <strong>Country:</strong> India · <strong>Published:</strong> 7 April 2023</p>
+                    <p class="pub-abstract">
+                        Smart parking system using sensors, cloud and AI-based pricing, with an app to book and pay.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+<button id="terminal-toggle" class="terminal-toggle" aria-label="Launch AI Chat">
+        <i class="fas fa-comments"></i>
+        <span class="toggle-badge">AI</span>
+    </button>
+    <div class="ai-terminal" id="ai-terminal" role="region" aria-label="AI Chat Interface">
+        <div class="terminal-header chat-header">
+            <div class="terminal-title-section">
+                <span class="terminal-title">IRIS</span>
+                <span class="terminal-subtitle">Intelligent Responsive Interface System</span>
+            </div>
+            <div class="terminal-powered-by">
+                <span class="llama-badge">
+                    <i class="fas fa-brain"></i>
+                    Llama 3.1
+                </span>
+            </div>
+        </div>
+        <div class="chat-body" id="chat-body" aria-live="polite" aria-atomic="false">
+            <ul class="messages" id="chat-messages" role="log"></ul>
+        </div>
+        <div class="chat-input" role="form" aria-label="Chat input area">
+            <input type="text" id="terminal-input" placeholder="Ask about my work, experience, or skills..." disabled aria-label="Chat input">
+            <button id="chat-send" class="btn" aria-label="Send message" disabled>Send</button>
+        </div>
+    </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; <span id="current-year"></span> Arjit Singh. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Work</a>
+                <a href="#skills">Skills</a>
+                <a href="#publications">Publications</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="hud-cursor" id="hud-cursor" aria-hidden="true"></div>
+    <script src="js/scripts.js"></script>
+    <!-- Debug helper: quick toggle handler to verify terminal toggle works locally -->
+    <script>
+        (function(){
+            try {
+                const t = document.getElementById('terminal-toggle');
+                if (t) {
+                    // Debug-only helper: log clicks without toggling UI (avoid double-toggle)
+                    t.addEventListener('click', function(){
+                        console.log('terminal-toggle clicked (debug helper)');
+                    });
+                }
+            } catch (err) {
+                console.error('Debug helper error', err);
+            }
+        })();
+    </script>
+    <script src="js/hud-effects.js"></script>
+</body>
+</html>
